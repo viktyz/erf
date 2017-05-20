@@ -1,0 +1,26 @@
+{
+  "name": "erf",
+  "version": "1.0.2",
+  "description": "A easy way to replace any file's name and content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktyz/erf.git"
+  },
+  "author": "viktyz",
+  "license": "MIT",
+  "bin": {
+    "erf": "./bin/erf"
+  },
+  "bugs": {
+    "url": "https://github.com/viktyz/erf/issues"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "shelljs":"^0.7.7"
+  },
+  "homepage": "https://github.com/viktyz/erf#readme"
+}
